@@ -31,7 +31,8 @@ Also we can check Docker images that are already installed, using:
 
 <code>sudo docker run -d -p 3000:3000 -v /var/lib/grafana:/var/lib/grafana -e "GF_SECURITY_ADMIN_PASSWORD=YOURPASSWORD" grafana/grafana</code>
 
-!!This is your information to sign in: admin "admin" and password that you set by yourself!!
+<blockquote>This is your information to sign in: admin "admin" and password that you set by yourself
+</blockquote>
 
 That command will return your Grafana ID,save it.
 
@@ -62,7 +63,9 @@ With another query scenario:
 
 
 Don't forget to save your Dashboard in the upper right corner.
-And we did it! If you have any questions or problems, The Official Grafana will help you:
+
+And we did it! 
+If you have any questions or problems, Grafana will help you:
 https://grafana.com/docs/grafana/latest/installation/docker/
 
 
