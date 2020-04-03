@@ -31,12 +31,15 @@ Also we can check Docker images that are already installed, using:
 
 <code>sudo docker run -d -p 3000:3000 -v /var/lib/grafana:/var/lib/grafana -e "GF_SECURITY_ADMIN_PASSWORD=YOURPASSWORD" grafana/grafana</code>
 
-<blockquote>Note: it's your information to sign in: type 'admin' in a field admin and password that you set by yourself
+<blockquote>Note: it's your data to sign in: type 'admin' in a field "admin" and password that you set earlier
 </blockquote>
 
 That command will return your Grafana ID,save it.
 
 ![Grafana ID](https://github.com/shmyaksi/installation-grafana/raw/master/img2.jpg)
+
+Also you may need to stop the container, use: 
+<code> sudo docker container stop 12345678923 where the container's ID is 12345678923 - </code>
 
 **Step 5.** After Grafana is installed on your server, open your web-browser and type the grafana server IP address (with port 3000) in the following way.
 
@@ -65,7 +68,9 @@ With another query scenario:
 Don't forget to save your Dashboard in the upper right corner.
 
 And we did it! 
+
 If you have any questions or problems, Grafana will help you:
+
 https://grafana.com/docs/grafana/latest/installation/docker/
 
 
