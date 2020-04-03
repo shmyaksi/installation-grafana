@@ -77,7 +77,7 @@ With another query scenario:
 
 Don't forget to save your Dashboard in the upper right corner.
 
-And we did it! 
+And we did it! Hope you have suc
 
 If you have any questions or problems, Grafana will help you:
 
