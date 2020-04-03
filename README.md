@@ -3,13 +3,16 @@
 
 Here I give you an example for instalattion on Ubuntu 18.04
 Using Linux console,write these commands:
+
 **Step 1.** Firstly, we should directly install Docker: 
 - sudo apt-get update
 - sudo apt-get install docker.io
+
 **Step 2.** Then we download the docker Grafan image from the online repository:
 -docker pull grafana/grafana:latest
 Also we can check Docker images that are already installed, using:
 - sudo docker images
+
 ![Docker images](https://github.com/shmyaksi/installation-grafana/raw/master/img1.jpg)
 
 **Step 3.** Create folders and set the correct resolution:
