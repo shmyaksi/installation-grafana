@@ -3,7 +3,7 @@
 
 Here I give you an example for instalattion on Ubuntu 18.04
 
-Using Linux console,write these commands:
+Using Linux terminal,write these commands:
 
 **Step 1.** Firstly, we should directly install Docker: 
 
