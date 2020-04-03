@@ -36,3 +36,7 @@ http://localhost:3000/
 
 Log in to the Grafana Dashboard using default user 'admin' and password 'admin'.Then you will be proposed to change the password.
 
+You will see Grafana as shown below:
+![Grafana](https://github.com/shmyaksi/installation-grafana/raw/master/image1.jpg)
+
+
