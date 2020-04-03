@@ -1,7 +1,7 @@
 # installation-grafana
 **This is the instruction for beginners who want to install Grafana on PC locally from its latest Docker image**
 
-Here I give you an example for instalattion on Ubuntu 18.04
+Here I give you an example for installation on Ubuntu 18.04
 
 Using Linux terminal,write these commands:
 
