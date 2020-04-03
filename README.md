@@ -77,10 +77,14 @@ With another query scenario:
 
 Don't forget to save your Dashboard in the upper right corner.
 
-And we did it! Hope you have suc
+And we did it! Thank you for following my instruction!
 
 If you have any questions or problems, Grafana will help you:
 
 https://grafana.com/docs/grafana/latest/installation/docker/
+
+If you have another OS, use this guide to install Docker:
+
+https://docs.docker.com/get-started/#set-up-your-docker-environment
 
 
