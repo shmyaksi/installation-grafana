@@ -39,4 +39,8 @@ Log in to the Grafana Dashboard using default user 'admin' and password 'admin'.
 You will see Grafana as shown below:
 ![Grafana](https://github.com/shmyaksi/installation-grafana/raw/master/image1.jpg)
 
+Then we need to create a new Dashboard:
+![Grafana](https://github.com/shmyaksi/installation-grafana/raw/master/image12.jpg)
+
+
 
