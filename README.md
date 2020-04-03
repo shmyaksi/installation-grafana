@@ -10,7 +10,7 @@ Using Linux console,write these commands:
 - sudo apt-get install docker.io
 
 **Step 2.** Then we download the docker Grafan image from the online repository:
--docker pull grafana/grafana:latest
+- docker pull grafana/grafana:latest
 
 Also we can check Docker images that are already installed, using:
 - sudo docker images
