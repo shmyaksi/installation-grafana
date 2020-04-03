@@ -12,19 +12,24 @@ Using Linux console,write these commands:
 <code> sudo apt-get install docker.io</code>
 
 **Step 2.** Then we download the docker Grafana image from the online repository:
--<code> docker pull grafana/grafana:latest</code>
+
+<code> docker pull grafana/grafana:latest</code>
 
 Also we can check Docker images that are already installed, using:
-- sudo docker images
+
+<code>sudo docker images</code>
 
 ![Docker images](https://github.com/shmyaksi/installation-grafana/raw/master/img1.jpg)
 
 **Step 3.** Create folders and set the correct resolution:
-- sudo mkdir /var/lib/grafana -p
-- sudo chown -R 472:472 /var/lib/grafana
+
+<code>sudo mkdir /var/lib/grafana -p</code>
+
+<code>sudo chown -R 472:472 /var/lib/grafana</code>
 
 **Step 4.** After that we run the new Docker container, using installed Grafana image:
-- sudo docker run -d -p 3000:3000 -v /var/lib/grafana:/var/lib/grafana -e "GF_SECURITY_ADMIN_PASSWORD=YOURPASSWORD" grafana/grafana
+
+<code>sudo docker run -d -p 3000:3000 -v /var/lib/grafana:/var/lib/grafana -e "GF_SECURITY_ADMIN_PASSWORD=YOURPASSWORD" grafana/grafana</code>
 
 !!This is your information to sign in: admin "admin" and password that you set by yourself!!
 
