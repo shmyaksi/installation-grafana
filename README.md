@@ -6,7 +6,7 @@ Here I give you an example for instalattion on Ubuntu 18.04
 Using Linux console,write these commands:
 
 **Step 1.** Firstly, we should directly install Docker: 
-- sudo apt-get update
+<code> sudo apt-get update </code>
 - sudo apt-get install docker.io
 
 **Step 2.** Then we download the docker Grafana image from the online repository:
