@@ -50,7 +50,7 @@ You will see Grafana as shown below:
 
 ![Grafana](https://github.com/shmyaksi/installation-grafana/raw/master/image12.jpg)
 
-**Step 7.** Add Query TestData DB and finally we get the first dashboard:
+**Step 7.** Add Query "TestData DB" and finally we get the first dashboard:
 
 ![Grafana](https://github.com/shmyaksi/installation-grafana/raw/master/image2.jpg)
 
@@ -60,5 +60,9 @@ With another query scenario:
 
 ![Grafana](https://github.com/shmyaksi/installation-grafana/raw/master/image4.jpg)
 
+
+Don't forget to save your Dashboard in the upper right corner.
+And we did it! If you have any questions or problems, The Official Grafana will help you:
+https://grafana.com/docs/grafana/latest/installation/docker/
 
 
