@@ -42,5 +42,10 @@ You will see Grafana as shown below:
 Then we need to create a new Dashboard: 
 ![Grafana](https://github.com/shmyaksi/installation-grafana/raw/master/image12.jpg)
 
+Add Query TestData DB and finally we get the first diagramm:
+
+![Grafana](https://github.com/shmyaksi/installation-grafana/raw/master/image2.jpg)
+
+
 
 
