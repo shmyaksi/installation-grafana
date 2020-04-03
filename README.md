@@ -55,11 +55,16 @@ Log in to the Grafana Dashboard using default user 'admin' and your password.(Or
 You will see Grafana as shown below:
 ![Grafana](https://github.com/shmyaksi/installation-grafana/raw/master/image1.jpg)
 
-**Step 6.** Then we need to create a new Dashboard: 
+**Step 6.** Click "Add data source and choose "TestData DB"
+
+![Grafana](https://github.com/shmyaksi/installation-grafana/raw/master/image6.jpg)
+
+
+**Step 7.** Then we need to create a new Dashboard: 
 
 ![Grafana](https://github.com/shmyaksi/installation-grafana/raw/master/image12.jpg)
 
-**Step 7.** Add Query "TestData DB" and finally we get the first dashboard:
+**Step 8.** Add Query "TestData DB" and finally we get the first dashboard:
 
 ![Grafana](https://github.com/shmyaksi/installation-grafana/raw/master/image2.jpg)
 
