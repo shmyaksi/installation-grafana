@@ -53,5 +53,7 @@ With another query scenario:
 
 ![Grafana](https://github.com/shmyaksi/installation-grafana/raw/master/image4.jpg)
 
+After all, save your dashboard.Also you may put it to your homepage:
 
+![Grafana](https://github.com/shmyaksi/installation-grafana/raw/master/image5.jpg)
 
