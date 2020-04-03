@@ -21,7 +21,7 @@ Also we can check Docker images that are already installed, using:
 - sudo mkdir /var/lib/grafana -p
 - sudo chown -R 472:472 /var/lib/grafana
 
-After that we run the new Docker container, using installed Grafana image:
+**Step 4.** After that we run the new Docker container, using installed Grafana image:
 - sudo docker run -d -p 3000:3000 -v /var/lib/grafana:/var/lib/grafana -e "GF_SECURITY_ADMIN_PASSWORD=YOURPASSWORD" grafana/grafana
 
 !!This is your information to sign in: admin "admin" and password that you set by yourself
@@ -30,7 +30,7 @@ After that command you'll get the Grafana ID,save it.
 
 ![Grafana ID](https://github.com/shmyaksi/installation-grafana/raw/master/img2.jpg)
 
-After Grafana is installed on your server, open your web-browser and type the grafana server IP address (with port 3000) in the following way.
+**Step 5.** After Grafana is installed on your server, open your web-browser and type the grafana server IP address (with port 3000) in the following way.
 
 http://localhost:3000/
 
@@ -39,10 +39,10 @@ Log in to the Grafana Dashboard using default user 'admin' and password 'admin'.
 You will see Grafana as shown below:
 ![Grafana](https://github.com/shmyaksi/installation-grafana/raw/master/image1.jpg)
 
-Then we need to create a new Dashboard: 
+**Step 6.** Then we need to create a new Dashboard: 
 ![Grafana](https://github.com/shmyaksi/installation-grafana/raw/master/image12.jpg)
 
-Add Query TestData DB and finally we get the first diagramm:
+**Step 7.** Add Query TestData DB and finally we get the first diagramm:
 
 ![Grafana](https://github.com/shmyaksi/installation-grafana/raw/master/image2.jpg)
 
