@@ -64,7 +64,7 @@ You will see Grafana as shown below:
 
 ![Grafana](https://github.com/shmyaksi/installation-grafana/raw/master/image12.jpg)
 
-**Step 8.** Add Query "TestData DB" and finally we get the first dashboard:
+**Step 8.** Choose Query "TestData DB" instead of "default" and finally we get the first dashboard:
 
 ![Grafana](https://github.com/shmyaksi/installation-grafana/raw/master/image2.jpg)
 
