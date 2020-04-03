@@ -29,3 +29,9 @@ After that command you'll get the Grafana ID,save it.
 
 ![Grafana ID](https://github.com/shmyaksi/installation-grafana/raw/master/img2.jpg)
 
+After Grafana is installed on your server, open your web-browser and type the grafana server IP address (with port 3000) in the following way.
+
+http://localhost:3000/
+
+Log in to the Grafana Dashboard using default user 'admin' and password 'admin'.Then you will be proposed to change the password.
+
