@@ -9,8 +9,8 @@ Using Linux console,write these commands:
 - sudo apt-get update
 - sudo apt-get install docker.io
 
-**Step 2.** Then we download the docker Grafan image from the online repository:
-- docker pull grafana/grafana:latest
+**Step 2.** Then we download the docker Grafana image from the online repository:
+-<code> docker pull grafana/grafana:latest</code>
 
 Also we can check Docker images that are already installed, using:
 - sudo docker images
@@ -53,7 +53,5 @@ With another query scenario:
 
 ![Grafana](https://github.com/shmyaksi/installation-grafana/raw/master/image4.jpg)
 
-After all, save your dashboard.Also you may put it to your homepage:
 
-![Grafana](https://github.com/shmyaksi/installation-grafana/raw/master/image5.jpg)
 
