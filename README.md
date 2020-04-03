@@ -42,6 +42,10 @@ Also you may need to stop the container, use:
 
 <blockquote><code> sudo docker container stop 12345678923</code> where  12345678923 is YOUR CONTAINER'S ID </blockquote>
 
+In case of error, use:
+
+<blockquote><code> sudo docker container logs 12345678923</code> where  12345678923 is YOUR CONTAINER'S ID </blockquote>
+
 **Step 5.** After Grafana is installed on your server, open your web-browser and type the grafana server IP address (with port 3000) in the following way.
 
 http://localhost:3000/
