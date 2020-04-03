@@ -11,6 +11,7 @@ Using Linux console,write these commands:
 
 **Step 2.** Then we download the docker Grafan image from the online repository:
 -docker pull grafana/grafana:latest
+
 Also we can check Docker images that are already installed, using:
 - sudo docker images
 
