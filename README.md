@@ -34,7 +34,7 @@ After that command you'll get the Grafana ID,save it.
 
 http://localhost:3000/
 
-Log in to the Grafana Dashboard using default user 'admin' and password 'admin'.Then you will be proposed to change the password.
+Log in to the Grafana Dashboard using default user 'admin' and your password.(Or a default password 'admin'.In this case, you will be proposed to change the password.)
 
 You will see Grafana as shown below:
 ![Grafana](https://github.com/shmyaksi/installation-grafana/raw/master/image1.jpg)
@@ -43,7 +43,7 @@ You will see Grafana as shown below:
 
 ![Grafana](https://github.com/shmyaksi/installation-grafana/raw/master/image12.jpg)
 
-**Step 7.** Add Query TestData DB and finally we get the first diagramm:
+**Step 7.** Add Query TestData DB and finally we get the first dashboard:
 
 ![Grafana](https://github.com/shmyaksi/installation-grafana/raw/master/image2.jpg)
 
