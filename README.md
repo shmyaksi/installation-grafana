@@ -10,7 +10,7 @@ Using Linux terminal,write these commands:
 <code> sudo apt-get update </code>
 
 <code> sudo apt-get install docker.io</code>
-<blockquote>Note: here and futher we use <code>sudo</code> before each command, that allow you to interact with a system as a superuser on Linux. If you use other OS, you don't need to type <code>sudo</code>
+<blockquote>Note: here and further we use <code>sudo</code> before each command, that allows us to interact with a system as a superuser on Linux. If you use other OS, you don't need to type <code>sudo</code>
 </blockquote>
 
 **Step 2.** Then we download the docker Grafana image from the online repository:
@@ -85,7 +85,7 @@ If you have any questions or problems, Grafana will help you:
 
 https://grafana.com/docs/grafana/latest/installation/docker/
 
-If you have another OS, use this guide to install Docker:
+Unless you are on Linux, use this guide to install Docker:
 
 https://docs.docker.com/get-started/#set-up-your-docker-environment
 
